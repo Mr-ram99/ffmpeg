@@ -1,0 +1,13 @@
+# ignore all video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# ignore all audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+/node_modules
