@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .container {
+    text-align: center;
+  }
+
+  .btn {
+    border: none;
+    min-width: 150px;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+  }
+
+  .record {
+    background-color: #90ff7a;
+  }
+
+  .record:hover {
+    background-color: #008000;
+  }
+
+  .stop {
+    background-color: #b9b1b1;
+  }
+
+  .stop:hover { 
+    background-color: #837d7d;
+  }
+
+  .audioContainer, .recording {
+    margin-top: 1rem;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <button class="record btn">Record</button><br>
+    <button class="stop btn">Stop</button>
+    <div class="recording"></div>
+    <div class="audioContainer"></div>
+    <script src="mediaRecord.js"></script>
+  </div>
+</body>
+
+</html>
